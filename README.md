@@ -1,4 +1,4 @@
-# Python_Project2--Exploring_hacker_news_posts
+# Python_Project2: Exploring_hacker_news_posts
 ### Exploring Hackers News Posts¶
 In this project, we'll compare two different types of posts from Hacker News, a popular site where technology related stories (or 'posts') are voted and commented upon. 
 ![image](https://s3.amazonaws.com/dq-content/354/hacker_news.jpg)
