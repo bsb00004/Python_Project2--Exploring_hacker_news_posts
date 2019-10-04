@@ -22,10 +22,11 @@ Below are descriptions of the columns:
 - <font color=red>author</font>: The username of the person who submitted the post
 - <font color=red>created_at</font>: The date and time at which the post was submited
 
+Here are the first few rows of the data set:
 |id	|title	|url	|num_points	|num_comments	|author	|created_at|
 |---|-------|-----|-----------|-------------|-------|----------|
 |12224879	|Interactive Dynamic Video	|http://www.interactivedynamicvideo.com/	|386	|52	|ne0phyte	|8/4/2016 11:52|
 |10975351	|How to Use Open Source and Shut the F*ck Up at the Same Time	|http://hueniverse.com/2016/01/26/how-to-use-open-source-and-shut-the-fuck-up-at-the-same-time/	|39	|10	|josep2	|1/26/2016 19:30|
 |11964716	|Florida DJs May Face Felony for April Fools' Water Joke	|http://www.thewire.com/entertainment/2013/04/florida-djs-april-fools-water-joke/63798/	|2	|1	|vezycash	|6/23/2016 22:20|
 |11919867	|Technology ventures: From Idea to Enterprise	|https://www.amazon.com/Technology-Ventures-Enterprise-Thomas-Byers/dp/0073523429	|3	|1	|hswarna	|6/17/2016 0:01|
-|10301696	Note by Note: The Making of Steinway L1037 (2007)	|http://www.nytimes.com/2007/11/07/movies/07stein.html?_r=0	|8	|2	|walterbell	|9/30/2015 4:12|
+|10301696	|Note by Note: The Making of Steinway L1037 (2007)	|http://www.nytimes.com/2007/11/07/movies/07stein.html?_r=0	|8	|2	|walterbell	|9/30/2015 4:12|
