@@ -23,6 +23,7 @@ Below are descriptions of the columns:
 - <font color=red>created_at</font>: The date and time at which the post was submited
 
 Here are the first few rows of the data set:
+
 |id	|title	|url	|num_points	|num_comments	|author	|created_at|
 |---|-------|-----|-----------|-------------|-------|----------|
 |12224879	|Interactive Dynamic Video	|http://www.interactivedynamicvideo.com/	|386	|52	|ne0phyte	|8/4/2016 11:52|
