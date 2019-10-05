@@ -41,16 +41,14 @@ print(len(other_posts))
 # Calculate the average number of comments `Ask HN` posts receive.
 total_ask_comments = 0
 for item in ask_posts:
-    total_ask_comments += int(item[4])
-    
+    total_ask_comments += int(item[4])#sum of Total of ask posts comments
 avg_ask_comments = total_ask_comments / len(ask_posts)
 avg_ask_comments
 
 # Calculate the average number of comments `Show HN` posts receive.
 total_show_comments = 0
-
 for post in show_posts:
-    total_show_comments += int(post[4])
+    total_show_comments += int(post[4])#sum of Total of show posts comments
     
 avg_show_comments = total_show_comments / len(show_posts)
 print(avg_show_comments)
