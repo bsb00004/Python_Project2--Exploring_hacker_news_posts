@@ -56,7 +56,7 @@ print(avg_show_comments)
 # Calculate the amount of ask posts created during each hour of day and the number of comments received.
 import datetime as dt
 
-result_list = []
+result_list = []#empty list of time and no of comments of ask post
 
 for post in ask_posts:
     result_list.append(
@@ -68,9 +68,9 @@ counts_by_hour = {}
 date_format = "%m/%d/%Y %H:%M"
 
 for each_row in result_list:
-    date = each_row[0]
-    comment = each_row[1]
-    time = dt.datetime.strptime(date, date_format).strftime("%H")
+    date = each_row[0]#time is column [0] in result_list
+    comment = each_row[1]#comments are column [1] in result_list
+    time = dt.datetime.strptime(date, date_format).strftime("%H")#time transfered in hours format
     if time in counts_by_hour:
         comments_by_hour[time] += comment
         counts_by_hour[time] += 1
@@ -104,6 +104,8 @@ print(swap_avg_by_hour)
 # Using the sorted() function to sort swap_avg_by_hour in descending order. 
 #Since the first column of this list is the average number of comments,..
 #..sorting the list will sort by the average number of comments.
+#Set the reverse argument to True,...
+#...so that the highest value in the first column appears first in the list.
 sorted_swap = sorted(swap_avg_by_hour, reverse=True)
 
 sorted_swap
