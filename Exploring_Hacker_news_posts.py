@@ -21,12 +21,12 @@ print(headers)
 print(hn[0:5])#printing to make sure header is removed
 
 # Identify posts that begin with either `Ask HN` or `Show HN` and separate the data into different lists.
-ask_posts = []#creating empty list for Ask HN
-show_posts = []#creating empty list for Ask HN
-other_posts = []#creating empty list for Ask HN
+ask_posts = []#creating empty list for 'Ask HN' posts
+show_posts = []#creating empty list for 'show HN' posts
+other_posts = []#creating empty list for rest of the posts as 'others HN'
 
-for item in hn:#looping through each rom in title column
-    title = item[1]#titile column is 2nd column
+for item in hn:#looping through each row in title column
+    title = item[1]#title column is 2nd column
     if title.lower().startswith("ask hn"):
         ask_posts.append(item)
     elif title.lower().startswith("show hn"):
